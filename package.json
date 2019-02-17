@@ -1,0 +1,30 @@
+{
+  "name": "react-ssr-css-modules",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "razzle start",
+    "start:prod": "node build/server.js",
+    "build": "razzle build",
+    "test": "razzle test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-plugin-react-css-modules": "^5.0.0",
+    "iso-morphic-style-loader": "^2.0.1",
+    "node-sass": "^4.11.0",
+    "razzle": "^3.0.0-alpha.1",
+    "sass-loader": "^7.1.0"
+  },
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "koa": "^2.7.0",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2"
+  }
+}
