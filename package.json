@@ -17,7 +17,8 @@
     "iso-morphic-style-loader": "^2.0.1",
     "node-sass": "^4.11.0",
     "razzle": "^3.0.0-alpha.1",
-    "sass-loader": "^7.1.0"
+    "sass-loader": "^7.1.0",
+    "webpack": "^4.29.3"
   },
   "dependencies": {
     "classnames": "^2.2.6",
