@@ -28,7 +28,7 @@ router.get(
           <meta http-equiv="X-UA-Compatible" content="IE=edge" />
           <meta charset="utf-8" />
           <title>CSS Modules with SCSS and React SSR</title>
-          <link rel="stylesheet" href="https://www.sueddeutsche.de/assets/contracts/fonts/fonts2017.css" />
+          <link rel="stylesheet" href="/fonts.css" />
           <meta name="viewport" content="width=device-width, initial-scale=1">
           ${assets.client.css ? `<link rel="stylesheet" href="${assets.client.css}">` : ''}
           ${
